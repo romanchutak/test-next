@@ -17,6 +17,4 @@ jobs:
           key: ${{ secrets.KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
-            sudo su citidom
-            id
-            echo 123
+            cat /etc/nginx/sites-enabled/citidom
